@@ -1,0 +1,1576 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/plugins/bootstrap.min.css" />
+    <!-- locomotive scroll css -->
+    <link rel="stylesheet" href="css/plugins/locomotive-scroll.css" />
+    <!-- swiper css -->
+    <link rel="stylesheet" href="css/plugins/swiper.min.css" />
+    <!-- fancybox css -->
+    <link rel="stylesheet" href="css/plugins/fancybox.min.css" />
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="css/plugins/font-awesome.min.css" />
+    <!-- adrian dark mode css <link rel="stylesheet" href="css/style-dark.css">-->
+    <!-- adrian light mode css -->
+    <link rel="stylesheet" href="css/style-dark.css" id="trm-switch-style" />
+    <!-- page name -->
+    <title>Sammy Robinson Portfolio</title>
+  </head>
+
+  <body>
+    <!-- app wrapper -->
+    <div class="trm-app-frame">
+      <!-- page preloader -->
+      <div class="trm-preloader">
+        <div class="trm-holder">
+          <div class="preloader">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+      <!-- page preloader end -->
+
+      <!-- change mode preloader -->
+      <div class="trm-mode-swich-animation-frame">
+        <div class="trm-mode-swich-animation">
+          <i class="far fa-sun"></i>
+          <div class="trm-horizon"></div>
+          <i class="far fa-moon"></i>
+        </div>
+      </div>
+      <!-- change mode preloader end -->
+
+      <!-- scroll container -->
+      <div id="trm-dynamic-content" class="trm-swup-animation">
+        <div
+          id="trm-scroll-container"
+          class="trm-scroll-container"
+          data-scroll-container
+          style="opacity: 0"
+        >
+          <div data-scroll-section id="content" class="trm-scroll-section">
+            <div data-scroll data-scroll-repeat id="home-triger"></div>
+
+            <!-- top bar -->
+            <div
+              class="trm-top-bar"
+              data-scroll
+              data-scroll-sticky
+              data-scroll-target="#content"
+              data-scroll-offset="-10"
+            >
+              <div class="container">
+                <div class="trm-left-side">
+                  <!-- logo -->
+                  <a
+                    href="#home-triger"
+                    data-scroll-to="#home-triger"
+                    data-scroll-offset="-10"
+                    class="trm-logo-frame"
+                  >
+                    <div class="trm-logo-text">
+                      Sammy<span>Robinson</span>
+                    </div>
+                  </a>
+                  <!-- logo end -->
+                </div>
+                <div class="trm-right-side">
+                  <!-- menu -->
+                  <div class="trm-menu">
+                    <nav>
+                      <ul>
+                        <li id="home-link" class="current-item">
+                          <a
+                            href="/"
+                            data-scroll-to="#home-triger"
+                            data-scroll-offset="-10"
+                            >Home</a
+                          >
+                        </li>
+                        <li id="about-link">
+                          <a
+                            href="#about-triger"
+                            data-scroll-to="#about-triger"
+                            data-scroll-offset="-130"
+                            >About</a
+                          >
+                        </li>
+                        <li id="portfolio-link">
+                          <a
+                            href="#portfolio-triger"
+                            data-scroll-to="#portfolio-triger"
+                            data-scroll-offset="-130"
+                            >Portfolio</a
+                          >
+                        </li>
+                        <li id="resume-link">
+                          <a
+                            href="#resume-triger"
+                            data-scroll-to="#resume-triger"
+                            data-scroll-offset="-130"
+                            >Resume</a
+                          >
+                        </li>
+                        <li id="contact-link">
+                          <a
+                            href="#contact-triger"
+                            data-scroll-to="#contact-triger"
+                            data-scroll-offset="-130"
+                            >Contact</a
+                          >
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <!-- menu end -->
+
+                  <!-- mode switcher place -->
+                  <div class="trm-mode-switcher-place"></div>
+                  <!-- mode switcher place end -->
+
+                  <!-- action button -->
+                 
+                  <!-- action button end -->
+                </div>
+                <div class="trm-menu-btn"><span></span></div>
+              </div>
+            </div>
+            <!-- top bar end -->
+
+            <div class="trm-content-start">
+              <!-- banner -->
+              <div
+                class="trm-banner"
+                data-scroll
+                data-scroll-direction="vertical"
+                data-scroll-speed="-1"
+              >
+                <!-- banner cover
+            <img src="img/banner.jpg" alt="banner" class="trm-banner-cover" data-scroll data-scroll-direction="vertical" data-scroll-speed="-4">
+            banner cover end -->
+
+                <!-- banner slideshow cover -->
+                <div
+                  class="swiper-container trm-slideshow"
+                  data-scroll
+                  data-scroll-direction="vertical"
+                  data-scroll-speed="-4"
+                >
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img
+                        src="img/banner.jpg"
+                        alt="banner"
+                        class="trm-banner-cover"
+                        data-swiper-parallax-y="-100"
+                        data-swiper-parallax-scale="1.2"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="img/banner1.jpg"
+                        alt="banner"
+                        class="trm-banner-cover"
+                        data-swiper-parallax-y="-100"
+                        data-swiper-parallax-scale="1.2"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="img/banner2.jpg"
+                        alt="banner"
+                        class="trm-banner-cover"
+                        data-swiper-parallax-y="-100"
+                        data-swiper-parallax-scale="1.2"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="img/banner3.jpg"
+                        alt="banner"
+                        class="trm-banner-cover"
+                        data-swiper-parallax-y="-100"
+                        data-swiper-parallax-scale="1.2"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="img/banner4.jpg"
+                        alt="banner"
+                        class="trm-banner-cover"
+                        data-swiper-parallax-y="-100"
+                        data-swiper-parallax-scale="1.2"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="img/banner5.jpg"
+                        alt="banner"
+                        class="trm-banner-cover"
+                        data-swiper-parallax-y="-100"
+                        data-swiper-parallax-scale="1.2"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="img/banner6.jpg"
+                        alt="banner"
+                        class="trm-banner-cover"
+                        data-swiper-parallax-y="-100"
+                        data-swiper-parallax-scale="1.2"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="img/banner7.jpg"
+                        alt="banner"
+                        class="trm-banner-cover"
+                        data-swiper-parallax-y="-100"
+                        data-swiper-parallax-scale="1.2"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="img/banner8.jpg"
+                        alt="banner"
+                        class="trm-banner-cover"
+                        data-swiper-parallax-y="-100"
+                        data-swiper-parallax-scale="1.2"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="img/banner9.jpg"
+                        alt="banner"
+                        class="trm-banner-cover"
+                        data-swiper-parallax-y="-100"
+                        data-swiper-parallax-scale="1.2"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="img/banner10.jpg"
+                        alt="banner"
+                        class="trm-banner-cover"
+                        data-swiper-parallax-y="-100"
+                        data-swiper-parallax-scale="1.2"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="img/banner11.jpg"
+                        alt="banner"
+                        class="trm-banner-cover"
+                        data-swiper-parallax-y="-100"
+                        data-swiper-parallax-scale="1.2"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="img/banner12.jpg"
+                        alt="banner"
+                        class="trm-banner-cover"
+                        data-swiper-parallax-y="-100"
+                        data-swiper-parallax-scale="1.2"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <!-- banner slideshow cover end -->
+
+                <!-- banner video cover
+              <video autoplay="autoplay" loop muted playsinline webkit-playinginline class="trm-banner-cover" data-scroll data-scroll-direction="vertical" data-scroll-speed="-4">
+                <source src="img/banner.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                <source src="img/banner.webm" type='video/webm; codecs="vp8, vorbis"'>
+                <source src="img/banner.ogg" type='video/ogg; codecs="theora, vorbis"'>
+                Your browser does not support HTML5 video.
+              </video>
+              banner video cover end -->
+
+                <!-- banner content -->
+                <div class="trm-banner-content trm-overlay">
+                  <div
+                    class="container"
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="1"
+                  >
+                    <div class="row">
+                      <div class="col-lg-4"></div>
+                      <div class="col-lg-8">
+                        <!-- banner title -->
+                        <div class="trm-banner-text">
+                          <div class="trm-label trm-mb-20">
+                            Hello! Let's Innovate!
+                          </div>
+                          <h1 class="trm-mb-30">
+                            Discover my<br />mobile space!
+                          </h1>
+                          
+                        </div>
+                        <!-- banner title end -->
+
+                        <!-- scroll hint -->
+                        <a
+                          href="#about-triger"
+                          data-scroll-to="#about-triger"
+                          data-scroll-offset="-130"
+                          class="trm-scroll-hint-frame"
+                        >
+                          <div class="trm-scroll-hint"></div>
+                          <span class="trm-label">Scroll down</span>
+                        </a>
+                        <!-- scroll hint end -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- banner content end -->
+              </div>
+              <!-- banner end -->
+
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <!-- main card -->
+                    <div class="trm-main-card-frame trm-sidebar">
+                      <div
+                        class="trm-main-card"
+                        data-scroll
+                        data-scroll-repeat
+                        data-scroll-sticky
+                        data-scroll-target="#content"
+                        data-scroll-offset="60"
+                      >
+                        <!-- card header -->
+                        <div class="trm-mc-header">
+                          <div class="trm-avatar-frame trm-mb-20">
+                            <img
+                              class="trm-avatar"
+                              src="img/avatar.jpg"
+                              alt="Avatar"
+                            />
+                            <div class="trm-dot"></div>
+                          </div>
+                          <h5 class="trm-name trm-mb-15">Sammy Robinson</h5>
+                          <div class="trm-label">
+                            I`m
+                            <span class="trm-typed-text">
+                              <!-- Words for rotation: js/main.js line 34 -->
+                            </span>
+                          </div>
+                        </div>
+                        <!-- card header end -->
+
+                        <div class="trm-divider trm-mb-40 trm-mt-40"></div>
+
+                        <!-- sidebar social -->
+                        <div class="trm-social">
+                          
+                          <a
+                            href="https://github.com/admin-0123"
+                            target="_blank"
+                            ><i class="fab fa-github"></i
+                          ></a>
+                          
+                          <a
+                            href="https://discord.com/channels/1159608775808909444/1211478317572694056"
+                            target="_blank"
+                            ><i class="fab fa-discord"></i
+                          ></a>
+                        </div>
+                        <!-- sidebar social end -->
+
+                        <div class="trm-divider trm-mb-40 trm-mt-40"></div>
+
+                        <!-- info -->
+                        <ul class="trm-table trm-mb-20">
+                          <!-- country -->
+                          <li>
+                            <div class="trm-label">Residence:</div>
+                            <div class="trm-label trm-label-light">
+                              New Zealand
+                            </div>
+                          </li>
+                          <!-- city -->
+                          <li>
+                            <div class="trm-label">City, State:</div>
+                            <div class="trm-label trm-label-light">
+                              Waimumu Road, Gore
+                            </div>
+                          </li>
+                          <!-- age -->
+                          
+                        </ul>
+                        <!-- info end -->
+
+                        <div class="trm-divider trm-mb-40 trm-mt-40"></div>
+
+                        <!-- action button -->
+                        <div class="text-center">
+                          <a data-fancybox href="#trm-order" class="trm-btn"
+                            >Contact me <i class="far fa-envelope"></i
+                          ></a>
+                        </div>
+                        <!-- action button end -->
+                      </div>
+                    </div>
+                    <!-- main card end -->
+                  </div>
+                  <div class="col-lg-8">
+                    <!-- content -->
+                    <div class="trm-content" id="trm-content">
+                      <div
+                        data-scroll
+                        data-scroll-repeat
+                        data-scroll-offset="500"
+                        id="about-triger"
+                      ></div>
+
+                      <!-- stats -->
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <!-- counter -->
+                          <div
+                            class="trm-counter-up trm-scroll-animation"
+                            data-scroll
+                            data-scroll-offset="40"
+                          >
+                            <div class="trm-counter-number">
+                              <span class="trm-counter">84</span
+                              ><span class="trm-counter-symbol">+</span>
+                            </div>
+                            <div class="trm-divider trm-mb-20 trm-mt-20"></div>
+                            <div class="trm-label">Completed projects</div>
+                          </div>
+                          <!-- counter end -->
+                        </div>
+                        <div class="col-lg-4">
+                          <!-- counter -->
+                          <div
+                            class="trm-counter-up trm-scroll-animation"
+                            data-scroll
+                            data-scroll-offset="40"
+                          >
+                            <div class="trm-counter-number">
+                              <span class="trm-counter">78</span
+                              ><span class="trm-counter-symbol">+</span>
+                            </div>
+                            <div class="trm-divider trm-mb-20 trm-mt-20"></div>
+                            <div class="trm-label">Happy customers</div>
+                          </div>
+                          <!-- counter end -->
+                        </div>
+                        <div class="col-lg-4">
+                          <!-- counter -->
+                          <div
+                            class="trm-counter-up trm-scroll-animation"
+                            data-scroll
+                            data-scroll-offset="40"
+                          >
+                            <div class="trm-counter-number">
+                              <span class="trm-counter">12</span
+                              ><span class="trm-counter-symbol">+</span>
+                            </div>
+                            <div class="trm-divider trm-mb-20 trm-mt-20"></div>
+                            <div class="trm-label">Awards & Certifications</div>
+                          </div>
+                          <!-- counter end -->
+                        </div>
+                      </div>
+                      <!-- stats end -->
+
+                      <!-- text -->
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <!-- title -->
+                          <h5 class="trm-mb-40 trm-title-with-divider">
+                            My story <span data-number="01"></span>
+                          </h5>
+
+                          <!-- quote -->
+                          <blockquote
+                            class="trm-scroll-animation"
+                            data-scroll
+                            data-scroll-offset="40"
+                          >
+                            Being mindful to avoid overpraising, as even the simplest actions can lead to profound outcomes, often arising from the most unforeseen circumstances..
+                          </blockquote>
+                          <!-- quote end -->
+                        </div>
+                      </div>
+                      <!-- text end -->
+
+                      <!-- video resume -->
+                      
+                      <!-- video resume end -->
+
+                      <!-- services -->
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <!-- title -->
+                          <h5
+                            class="trm-mb-40 trm-mt-40 trm-title-with-divider"
+                          >
+                            My Services <span data-number="02"></span>
+                          </h5>
+                        </div>
+                        <div class="col-lg-6">
+                          <!-- service -->
+                          <div
+                            class="trm-service-icon-box trm-scroll-animation"
+                            data-scroll
+                            data-scroll-offset="40"
+                          >
+                            <div class="trm-service-content">
+                              <div class="trm-icon">
+                                <img
+                                  src="img/icons/icon-1.svg"
+                                  alt="icon"
+                                  class="trm-black-icon"
+                                />
+                                <img
+                                  src="img/icons/icon-1w.svg"
+                                  alt="icon"
+                                  class="trm-white-icon"
+                                />
+                              </div>
+                              <h6 class="trm-mb-20">iOS App</h6>
+                              <div class="trm-mb-20">
+                                Experienced in iOS native app development
+                                utilizing Swift and Objective-C.
+                              </div>
+                              <a
+                                data-fancybox
+                                href="#trm-order"
+                                class="trm-label trm-label-color"
+                                >Order now <i class="fas fa-arrow-right"></i
+                              ></a>
+                            </div>
+                          </div>
+                          <!-- service end -->
+                        </div>
+                        <div class="col-lg-6">
+                          <!-- service -->
+                          <div
+                            class="trm-service-icon-box trm-scroll-animation"
+                            data-scroll
+                            data-scroll-offset="40"
+                          >
+                            <div class="trm-service-content">
+                              <div class="trm-icon">
+                                <img
+                                  src="img/icons/icon-2.svg"
+                                  alt="icon"
+                                  class="trm-black-icon"
+                                />
+                                <img
+                                  src="img/icons/icon-2w.svg"
+                                  alt="icon"
+                                  class="trm-white-icon"
+                                />
+                              </div>
+                              <h6 class="trm-mb-20">Android App</h6>
+                              <div class="trm-mb-20">
+                                Skilled in Android native app development with
+                                expertise in Java and Kotlin.
+                              </div>
+                              <a
+                                data-fancybox
+                                href="#trm-order"
+                                class="trm-label trm-label-color"
+                                >Order now <i class="fas fa-arrow-right"></i
+                              ></a>
+                            </div>
+                          </div>
+                          <!-- service end -->
+                        </div>
+                        <div class="col-lg-6">
+                          <!-- service -->
+                          <div
+                            class="trm-service-icon-box trm-scroll-animation"
+                            data-scroll
+                            data-scroll-offset="40"
+                          >
+                            <div class="trm-service-content">
+                              <div class="trm-icon">
+                                <img
+                                  src="img/icons/icon-3.svg"
+                                  alt="icon"
+                                  class="trm-black-icon"
+                                />
+                                <img
+                                  src="img/icons/icon-3w.svg"
+                                  alt="icon"
+                                  class="trm-white-icon"
+                                />
+                              </div>
+                              <h6 class="trm-mb-20">Hybrid Development</h6>
+                              <div class="trm-mb-20">
+                                Proficient in hybrid app development utilizing
+                                React Native, Ionic and Flutter.
+                              </div>
+                              <a
+                                data-fancybox
+                                href="#trm-order"
+                                class="trm-label trm-label-color"
+                                >Order now <i class="fas fa-arrow-right"></i
+                              ></a>
+                            </div>
+                          </div>
+                          <!-- service end -->
+                        </div>
+                        <div class="col-lg-6">
+                          <!-- service -->
+                          <div
+                            class="trm-service-icon-box trm-scroll-animation"
+                            data-scroll
+                            data-scroll-offset="40"
+                          >
+                            <div class="trm-service-content">
+                              <div class="trm-icon">
+                                <img
+                                  src="img/icons/icon-4.svg"
+                                  alt="icon"
+                                  class="trm-black-icon"
+                                />
+                                <img
+                                  src="img/icons/icon-4w.svg"
+                                  alt="icon"
+                                  class="trm-white-icon"
+                                />
+                              </div>
+                              <h6 class="trm-mb-20">Full Stack development</h6>
+                              <div class="trm-mb-20">
+                                Experienced in backend development and cloud
+                                service integration for enterprise-level
+                                applications.
+                              </div>
+                              <a
+                                data-fancybox
+                                href="#trm-order"
+                                class="trm-label trm-label-color"
+                                >Order now <i class="fas fa-arrow-right"></i
+                              ></a>
+                            </div>
+                          </div>
+                          <!-- service end -->
+                        </div>
+                      </div>
+                      <!-- services end -->
+
+                      <div
+                        data-scroll
+                        data-scroll-repeat
+                        data-scroll-offset="500"
+                        id="portfolio-triger"
+                      ></div>
+
+                      <!-- portfolio -->
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <!-- title -->
+                          <h5 class="trm-mb-40 trm-title-with-divider">
+                            Portfolio <span data-number="03"></span>
+                          </h5>
+                        </div>
+
+                        <div class="col-lg-6">
+                          <!-- portfolio item -->
+                          <a
+                            data-fancybox="portfolio"
+                            href="img/portfolio/1.png"
+                            class="trm-portfolio-item trm-scroll-animation"
+                            data-scroll
+                            data-scroll-offset="40"
+                          >
+                            <div class="trm-cover-frame">
+                              <img
+                                class="trm-cover"
+                                src="img/portfolio/1.png"
+                                alt="item"
+                              />
+                            </div>
+                            <div class="trm-item-description">
+                              <h6>HOWL TO HOME</h6>
+                              <div class="trm-zoom-icon">
+                                <i class="fas fa-search-plus"></i>
+                              </div>
+                            </div>
+                          </a>
+
+                          <div class="d-none">
+                            <div class="trm-portfolio-description">
+                              <div class="trm-portfolio-description-container">
+                                <h1>HOWL TO HOME</h1>
+                                <p>
+                                  Swipe Right To Find Your New Best Friend!
+                                  <br /><br />
+                                  Dating is ruff! We make finding your dream dog
+                                  easy! Create a profile, set your preferences,
+                                  and complete a one-time, universal adoption
+                                  form. Swipe right to favorite a dog or left to
+                                  pass. You can narrow down your top favorite
+                                  dogs and send your connection to their rescue.
+                                  <br /><br />
+                                  Howl to Home is a dual platform mobile
+                                  application that connects state registered,
+                                  non-profit rescues with legitimate dog
+                                  adopters.
+                                </p>
+
+                                <div class="trm-portfolio-skills-container">
+                                  <span>Swift</span>
+                                  <span>Objective-C</span>
+                                  <span>PHP</span>
+                                  <span>MySQL</span>
+                                  <span>AWS</span>
+                                </div>
+
+                                <!-- <p>
+                                  <i class="fas fa-user"></i>&nbsp; Morgan
+                                  Mastrangelo
+                                </p> -->
+                                <!-- <a
+                                  target="_blank"
+                                  href="https://apps.apple.com/us/app/howl-to-home/id1387768451"
+                                  class="d-block"
+                                >
+                                  <i class="fas fa-globe"></i>&nbsp; Go to the
+                                  product
+                                </a> -->
+
+                                <a
+                                  href="https://apps.apple.com/us/app/howl-to-home/id1387768451"
+                                  class="trm-btn"
+                                  style="margin-top: 36px"
+                                  >Visit the product</a
+                                >
+                              </div>
+
+                              <div class="trm-portfolio-image-container">
+                                <img src="img/portfolio/1.png" />
+                                <img src="img/portfolio/2.png" />
+                              </div>
+                            </div>
+                          </div>
+                          <!-- portfolio item end -->
+                        </div>
+                        <div class="col-lg-6">
+                          <!-- portfolio item -->
+                          <a
+                            data-fancybox="portfolio"
+                            href="img/portfolio/2.png"
+                            class="trm-portfolio-item trm-scroll-animation"
+                            data-scroll
+                            data-scroll-offset="40"
+                          >
+                            <div class="trm-cover-frame">
+                              <img
+                                class="trm-cover"
+                                src="img/portfolio/2.png"
+                                alt="item"
+                              />
+                            </div>
+                            <div class="trm-item-description">
+                              <h6>TRAVEL WITH LARK</h6>
+                              <div class="trm-zoom-icon">
+                                <i class="fas fa-search-plus"></i>
+                              </div>
+                            </div>
+                          </a>
+
+                          <div class="d-none">
+                            <div class="trm-portfolio-description">
+                              <div class="trm-portfolio-description-container">
+                                <h1>TRAVEL WITH LARK</h1>
+                                <p>
+                                  Travel with Lark on your next trip, and use
+                                  this app designed to save you time planning
+                                  your next vacation. Find amazing things to do
+                                  when you travel based on your interests,
+                                  budgets, and time.We know that new cities have
+                                  so much to offer, and figuring out exactly
+                                  what to do can get overwhelming. Lark will
+                                  curate an exceptional list of activities based
+                                  on each user's preferences. No two travelers
+                                  are alike, so no two itineraries are either!
+                                  <br /><br />
+                                  Instead of spending hours scouring the
+                                  internet, let Lark find things you'll love. In
+                                  just minutes Lark creates a great itinerary of
+                                  activities for you. Edit if needed, and go!
+                                  Once your itinerary is final, download or
+                                  share with your friends in a few simple taps.
+                                  Try it out with San Francisco, free on Lark
+                                  today!
+                                  <br /><br />
+                                  Your next vacation awaits. Let us help you
+                                  craft your perfect trip, and Travel with Lark.
+                                </p>
+
+                                <div class="trm-portfolio-skills-container">
+                                  <span>TypeScript</span>
+                                  <span>React Native</span>
+                                  <span>PHP</span>
+                                  <span>MySQL</span>
+                                  <span>AWS</span>
+                                </div>
+
+                                <p>
+                                  <i class="fas fa-calendar"></i>
+                                  2024-02-18
+                                </p>
+
+                                <a
+                                  href="https://apps.apple.com/us/app/lark/id1470046569?ls=1"
+                                  class="trm-btn"
+                                  style="margin-top: 24px"
+                                  >Visit Website</a
+                                >
+                              </div>
+
+                              <div class="trm-portfolio-image-container">
+                                <img src="img/portfolio/2.png" />
+                                <img src="img/portfolio/3.png" />
+                              </div>
+                            </div>
+                          </div>
+                          <!-- portfolio item end -->
+                        </div>
+                        <div class="col-lg-6">
+                          <!-- portfolio item -->
+                          <a
+                            data-fancybox="portfolio"
+                            href="img/portfolio/3.png"
+                            class="trm-portfolio-item trm-scroll-animation"
+                            data-scroll
+                            data-scroll-offset="40"
+                          >
+                            <div class="trm-cover-frame">
+                              <img
+                                class="trm-cover"
+                                src="img/portfolio/3.png"
+                                alt="item"
+                              />
+                            </div>
+                            <div class="trm-item-description">
+                              <h6>LOOPLE</h6>
+                              <div class="trm-zoom-icon">
+                                <i class="fas fa-search-plus"></i>
+                              </div>
+                            </div>
+                          </a>
+
+                          <div class="d-none">
+                            <div class="trm-portfolio-description">
+                              <div class="trm-portfolio-description-container">
+                                <h1>LOOPLE</h1>
+                                <p>
+                                  Quickly see thousands of local drink specials,
+                                  food specials, happy hours, and live music all
+                                  at your fingertips. Each icon represents a bar
+                                  or restaurant that you can click to see a
+                                  quick overview of current specials or dive
+                                  into their full profile to see reviews and
+                                  photos from other Loople users. Filter your
+                                  city for "Drink Specials," "Food Specials,"
+                                  "Live Music," "Outdoor Seating," and many
+                                  other options so you always find the best
+                                  options closest to you. Find exactly what you
+                                  are looking for every time with Loople.
+                                </p>
+
+                                <div class="trm-portfolio-skills-container">
+                                  <span>TypeScript</span>
+                                  <span>React Native</span>
+                                  <span>Swift</span>
+                                  <span>Kotlin</span>
+                                  <span>PHP</span>
+                                  <span>MySQL</span>
+                                  <span>Azure</span>
+                                </div>
+
+                                <!-- <p>
+                                  <i class="fas fa-calendar"></i>
+                                  2024-02-18
+                                </p> -->
+
+                                <a
+                                  href="https://apps.apple.com/us/app/loople-happy-hour-finder/id977997853"
+                                  class="trm-btn"
+                                  style="margin-top: 24px"
+                                  >Visit Website</a
+                                >
+                              </div>
+
+                              <div class="trm-portfolio-image-container">
+                                <img src="img/portfolio/3.png" />
+                                <img src="img/portfolio/4.png" />
+                              </div>
+                            </div>
+                          </div>
+                          <!-- portfolio item end -->
+                        </div>
+                        <div class="col-lg-6">
+                          <!-- portfolio item -->
+                          <a
+                            data-fancybox="portfolio"
+                            href="img/portfolio/4.png"
+                            class="trm-portfolio-item trm-scroll-animation"
+                            data-scroll
+                            data-scroll-offset="40"
+                          >
+                            <div class="trm-cover-frame">
+                              <img
+                                class="trm-cover"
+                                src="img/portfolio/4.png"
+                                alt="item"
+                              />
+                            </div>
+                            <div class="trm-item-description">
+                              <h6>KROGER</h6>
+                              <div class="trm-zoom-icon">
+                                <i class="fas fa-search-plus"></i>
+                              </div>
+                            </div>
+                          </a>
+
+                          <div class="d-none">
+                            <div class="trm-portfolio-description">
+                              <div class="trm-portfolio-description-container">
+                                <h1>KROGER</h1>
+                                <p>
+                                  Looking for a faster, easier, more rewarding
+                                  shopping experience? Save time and money with
+                                  the Kroger app! It puts convenience, savings
+                                  and rewards at your fingertips. Simply
+                                  download the app, create an account and
+                                  register your Kroger Shopper's Card to access
+                                  all these great benefits:
+                                  <br />&nbsp;&nbsp;- Shop Pickup or Delivery
+                                  right from the app! <br />&nbsp;&nbsp;- Easily
+                                  build your online shopping list, and use it to
+                                  shop in-store or to place your online order.
+                                  <br />&nbsp;&nbsp;- View your Weekly Ads and
+                                  quickly add sale items or specials to your
+                                  shopping list. <br /><br />To use the Kroger
+                                  app, you'll need a Kroger digital account. You
+                                  can register for your account and link your
+                                  Shopper's Card through the app. If you don't
+                                  have a Shopper's Card, you can create one when
+                                  you register to access all of these savings
+                                  and rewards!
+                                </p>
+
+                                <div class="trm-portfolio-skills-container">
+                                  <span>TypeScript</span>
+                                  <span>React Native</span>
+                                  <span>Swift</span>
+                                  <span>Java</span>
+                                  <span>Node.js</span>
+                                  <span>Express</span>
+                                  <span>AWS</span>
+                                </div>
+
+                                <!-- <p>
+                                  <i class="fas fa-calendar"></i>
+                                  2024-02-18
+                                </p> -->
+
+                                <a
+                                  href="https://www.kroger.com/"
+                                  class="trm-btn"
+                                  style="margin-top: 24px"
+                                  >Visit Website</a
+                                >
+                              </div>
+
+                              <div class="trm-portfolio-image-container">
+                                <img src="img/portfolio/4.png" />
+                                <img src="img/portfolio/1.png" />
+                              </div>
+                            </div>
+                          </div>
+                          <!-- portfolio item end -->
+                        </div>
+                      </div>
+                      <!-- portfolio end -->
+
+                      <div
+                        data-scroll
+                        data-scroll-repeat
+                        data-scroll-offset="500"
+                        id="resume-triger"
+                      ></div>
+
+                      <!-- skills -->
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <!-- title -->
+                          <h5 class="trm-mb-40 trm-title-with-divider">
+                            Language skills<span data-number="04"></span>
+                          </h5>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                          <div
+                            class="trm-skill-card trm-scroll-animation"
+                            data-scroll
+                            data-scroll-offset="40"
+                          >
+                            <div class="trm-mb-0">
+                              <div class="trm-skill-header">
+                                <h6 class="trm-mb-15">English</h6>
+                                <span class="trm-label trm-label-light"
+                                  >80%</span
+                                >
+                              </div>
+                              <div class="trm-progressbar-frame">
+                                <div class="trm-progressbar p80"></div>
+                              </div>
+                            </div>
+                            <!-- <div>
+                              <div class="trm-skill-header">
+                                <h6 class="trm-mb-15">Italian</h6>
+                                <span class="trm-label trm-label-light"
+                                  >60%</span
+                                >
+                              </div>
+                              <div class="trm-progressbar-frame">
+                                <div class="trm-progressbar p60"></div>
+                              </div>
+                            </div> -->
+                          </div>
+                        </div>
+                      </div>
+                      <!-- skills end -->
+
+                      <!-- skills -->
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <!-- title -->
+                          <h5 class="trm-mb-40 trm-title-with-divider">
+                            Hard Skills<span data-number="05"></span>
+                          </h5>
+                        </div>
+                        <div class="col-lg-6">
+                          <div
+                            class="trm-skill-card trm-scroll-animation"
+                            data-scroll
+                            data-scroll-offset="40"
+                          >
+                            <div class="trm-mb-40">
+                              <div class="trm-skill-header">
+                                <h6 class="trm-mb-15">React Native</h6>
+                                <span class="trm-label trm-label-light"
+                                  >100%</span
+                                >
+                              </div>
+                              <div class="trm-progressbar-frame">
+                                <div class="trm-progressbar p100"></div>
+                              </div>
+                            </div>
+                            <div class="trm-mb-40">
+                              <div class="trm-skill-header">
+                                <h6 class="trm-mb-15">Java</h6>
+                                <span class="trm-label trm-label-light"
+                                  >100%</span
+                                >
+                              </div>
+                              <div class="trm-progressbar-frame">
+                                <div class="trm-progressbar p100"></div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="trm-skill-header">
+                                <h6 class="trm-mb-15">Kotlin</h6>
+                                <span class="trm-label trm-label-light"
+                                  >80%</span
+                                >
+                              </div>
+                              <div class="trm-progressbar-frame">
+                                <div class="trm-progressbar p80"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div
+                            class="trm-skill-card trm-scroll-animation"
+                            data-scroll
+                            data-scroll-offset="40"
+                          >
+                            <div class="trm-mb-40">
+                              <div class="trm-skill-header">
+                                <h6 class="trm-mb-15">Flutter</h6>
+                                <span class="trm-label trm-label-light"
+                                  >90%</span
+                                >
+                              </div>
+                              <div class="trm-progressbar-frame">
+                                <div class="trm-progressbar p90"></div>
+                              </div>
+                            </div>
+                            <div class="trm-mb-40">
+                              <div class="trm-skill-header">
+                                <h6 class="trm-mb-15">Swift</h6>
+                                <span class="trm-label trm-label-light"
+                                  >70%</span
+                                >
+                              </div>
+                              <div class="trm-progressbar-frame">
+                                <div class="trm-progressbar p70"></div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="trm-skill-header">
+                                <h6 class="trm-mb-15">Objective-C</h6>
+                                <span class="trm-label trm-label-light"
+                                  >60%</span
+                                >
+                              </div>
+                              <div class="trm-progressbar-frame">
+                                <div class="trm-progressbar p60"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- skills end -->
+
+                      <!-- history -->
+
+                      <!-- history end -->
+
+                      <!-- price plans -->
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <!-- title -->
+                          <h5 class="trm-mb-40 trm-title-with-divider">
+                            Price plans <span data-number="06"></span>
+                          </h5>
+                        </div>
+                        <div class="col-lg-6">
+                          <!-- price table -->
+                          <div
+                            class="trm-price trm-popular trm-scroll-animation"
+                            data-scroll
+                            data-scroll-offset="40"
+                          >
+                            <!-- card header -->
+                            <div class="trm-price-header">
+                              <h6>Hourly Payment</h6>
+                            </div>
+                            <!-- card header end -->
+                            <!-- price -->
+                            <div class="trm-price-number">
+                              <sup>$</sup>29<sup>h</sup>
+                            </div>
+                            <!-- price end -->
+                            <div class="trm-divider trm-mb-40 trm-mt-40"></div>
+                            <!-- price list -->
+                            <ul class="trm-price-list">
+                              <li class="trm-label">
+                                Custom mobile app development
+                              </li>
+                              <li class="trm-label">
+                                Bug fixing and performance optimization
+                              </li>
+                              <li class="trm-label">
+                                Cross-platform solutions (iOS & Android)
+                              </li>
+                              <li class="trm-label">
+                                Free initial consultation
+                              </li>
+                            </ul>
+                            <!-- price list end -->
+                            <a data-fancybox href="#trm-order" class="trm-btn"
+                              >Order now <i class="fas fa-arrow-right"></i
+                            ></a>
+                          </div>
+                          <!-- price table -->
+                        </div>
+                        <div class="col-lg-6">
+                          <!-- price table -->
+                          <div
+                            class="trm-price trm-scroll-animation"
+                            data-scroll
+                            data-scroll-offset="40"
+                          >
+                            <!-- card header -->
+                            <div class="trm-price-header">
+                              <h6>Full Time</h6>
+                            </div>
+                            <!-- card header end -->
+                            <!-- price -->
+                            <div class="trm-price-number">
+                              <sup>$</sup>4999<sup>m</sup>
+                            </div>
+                            <!-- price end -->
+                            <div class="trm-divider trm-mb-40 trm-mt-40"></div>
+                            <!-- price list -->
+                            <ul class="trm-price-list">
+                              <li class="trm-label">
+                                Full project lifecycle management
+                              </li>
+                              <li class="trm-label">
+                                Continuous app updates and maintenance
+                              </li>
+                              <li class="trm-label">
+                                Dedicated support and development
+                              </li>
+                              <li class="trm-label">
+                                Cross-platform solutions with premium features
+                              </li>
+                            </ul>
+                            <!-- price list end -->
+                            <a data-fancybox href="#trm-order" class="trm-btn"
+                              >Order now <i class="fas fa-arrow-right"></i
+                            ></a>
+                          </div>
+                          <!-- price table end -->
+                        </div>
+                      </div>
+                      <!-- price plans end -->
+
+                      <!-- testimonials -->
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <!-- title -->
+                          <h5 class="trm-mb-40 trm-title-with-divider">
+                            Testimonials <span data-number="07"></span>
+                          </h5>
+                        </div>
+                        <div class="col-lg-12">
+                          <!-- testimonials slider -->
+                          <div
+                            class="swiper-container trm-testimonials-slider trm-scroll-animation"
+                            data-scroll
+                            data-scroll-offset="40"
+                          >
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <div
+                                  class="trm-testimonial-card"
+                                  data-swiper-parallax
+                                  data-swiper-parallax-scale=".8"
+                                  data-swiper-parallax-opacity="0"
+                                  data-swiper-parallax-duration="800"
+                                >
+                                  <div class="trm-testimonial-author">
+                                    <img
+                                      src="img/testimonials/1.jpg"
+                                      alt="Client"
+                                    />
+                                    <h6 class="trm-mb-15">Alex M.</h6>
+                                    <div class="trm-text-sm trm-accent-color">
+                                      <i>CEO at TechNova Solutions</i>
+                                    </div>
+                                  </div>
+                                  <div class="trm-testimonial-text">
+                                    <p>
+                                      <i>
+                                        Working with Sammy was a fantastic
+                                        experience. He took our mobile app
+                                        concept and turned it into a functional,
+                                        user-friendly product. His attention to
+                                        detail, responsiveness, and technical
+                                        skills exceeded our expectations. The
+                                        app runs smoothly on both iOS and
+                                        Android, and our user engagement has
+                                        skyrocketed since the launch.
+                                      </i>
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div
+                                  class="trm-testimonial-card"
+                                  data-swiper-parallax
+                                  data-swiper-parallax-scale=".8"
+                                  data-swiper-parallax-opacity="0"
+                                  data-swiper-parallax-duration="800"
+                                >
+                                  <div class="trm-testimonial-author">
+                                    <img
+                                      src="img/testimonials/2.jpg"
+                                      alt="Client"
+                                    />
+                                    <h6 class="trm-mb-15">Sarah K.</h6>
+                                    <div class="trm-text-sm trm-accent-color">
+                                      <i>COO at GreenLeaf Enterprises</i>
+                                    </div>
+                                  </div>
+                                  <div class="trm-testimonial-text">
+                                    <p>
+                                      Sammy is a highly skilled mobile
+                                      developer who truly understands client
+                                      needs. He helped us build a custom app
+                                      that streamlined our business processes,
+                                      saving us time and resources. His
+                                      dedication to the project and ability to
+                                      deliver on time made all the difference. I
+                                      would highly recommend him to anyone
+                                      looking for a reliable and talented
+                                      developer.
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div
+                                  class="trm-testimonial-card"
+                                  data-swiper-parallax
+                                  data-swiper-parallax-scale=".8"
+                                  data-swiper-parallax-opacity="0"
+                                  data-swiper-parallax-duration="800"
+                                >
+                                  <div class="trm-testimonial-author">
+                                    <img
+                                      src="img/testimonials/3.jpg"
+                                      alt="Client"
+                                    />
+                                    <h6 class="trm-mb-15">David L.</h6>
+                                    <div class="trm-text-sm trm-accent-color">
+                                      <i>Product Manager at FinTech Hub</i>
+                                    </div>
+                                  </div>
+                                  <div class="trm-testimonial-text">
+                                    <p>
+                                      From the first consultation to the final
+                                      product, Sammy demonstrated top-notch
+                                      professionalism and expertise. He
+                                      developed a seamless app that integrated
+                                      with our existing systems, and his ongoing
+                                      support has been outstanding. The app's
+                                      performance and functionality have been
+                                      flawless since day one. We couldn't have
+                                      asked for a better developer.
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="trm-slider-navigation">
+                              <div
+                                class="trm-testimonials-slider-prev trm-btn trm-btn-circle"
+                              >
+                                <i class="fas fa-arrow-left"></i>
+                              </div>
+                              <div
+                                class="trm-testimonials-slider-next trm-btn trm-btn-circle"
+                              >
+                                <i class="fas fa-arrow-right"></i>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- testimonials slider end -->
+                        </div>
+                      </div>
+                      <!-- testimonials end -->
+
+                      <div
+                        data-scroll
+                        data-scroll-repeat
+                        data-scroll-offset="500"
+                        id="contact-triger"
+                      ></div>
+
+                      <!-- contact -->
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <!-- title -->
+                          <h5 class="trm-mb-40 trm-title-with-divider">
+                            Contact <span data-number="08"></span>
+                          </h5>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                          <!-- contact card -->
+                          <div
+                            class="trm-service-icon-box trm-scroll-animation"
+                            data-scroll
+                            data-scroll-offset="40"
+                          >
+                            <div class="trm-service-content">
+                              <div class="trm-icon">
+                                <img
+                                  src="img/icons/icon-6.svg"
+                                  alt="icon"
+                                  class="trm-black-icon"
+                                />
+                                <img
+                                  src="img/icons/icon-6w.svg"
+                                  alt="icon"
+                                  class="trm-white-icon"
+                                />
+                              </div>
+                              <h6 class="trm-mb-20">Write</h6>
+                              <div class="trm-mb-15">
+                                <span class="trm-label">Email:</span>
+                                <span class="trm-text-sm"
+                                  >zelma_vanicek@outlook.com</span
+                                >
+                              </div>
+                              
+                            </div>
+                          </div>
+                          <!-- contact card end -->
+                        </div>
+                      </div>
+                      <!-- contact end -->
+
+                      <!-- contact form -->
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <!-- title -->
+                          <h5 class="trm-mb-40 trm-title-with-divider">
+                            Get in touch <span data-number="09"></span>
+                          </h5>
+                        </div>
+                        <div class="col-lg-12">
+                          <div class="trm-contact-card">
+                            <form
+                              action="mailto:am.dev.8080@gmail.com"
+                              method="post"
+                              enctype="text/plain"
+                            >
+                              <input
+                                type="text"
+                                name="Title"
+                                placeholder="Title"
+                              />
+                              <textarea
+                                rows="6"
+                                name="Message"
+                                placeholder="Message"
+                              ></textarea>
+                              <div class="trm-form-bottom">
+                                <button type="submit" class="trm-btn">
+                                  Send <i class="fas fa-arrow-right"></i>
+                                </button>
+                                <div class="trm-text-sm">
+                                  * I promise the confidentiality of your
+                                  personal information
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- contact form end -->
+
+                      <div class="trm-divider trm-mt-40 trm-mb-40"></div>
+
+                      <!-- footer -->
+                      <footer
+                        class="trm-scroll-animation"
+                        data-scroll
+                        data-scroll-offset="50"
+                      >
+                        <div class="trm-label">© 2024 All Rights Reserved.</div>
+                        <div class="trm-label">
+                          Designed by:
+                          <a
+                            href="https://themeforest.net/user/millerdigitaldesign/portfolio?ref=MillerDigitalDesign"
+                            target="_blank"
+                            >Sammy Robinson</a
+                          >
+                        </div>
+                      </footer>
+                      <!-- footer end -->
+                    </div>
+                    <!-- content end -->
+
+                    <!-- popup -->
+                    <div id="trm-order" class="trm-order">
+                      <div class="trm-popup-content">
+                        <img src="img/popup.jpg" alt="photo" />
+
+                        <div class="trm-popup-form-frame">
+                          <h5 class="trm-mb-40">Write me a message</h5>
+                          <form
+                            action="mailto:am.dev.8080@gmail.com"
+                            method="post"
+                            enctype="text/plain"
+                          >
+                            <input name="name" type="text" placeholder="Name" />
+                            <input
+                              name="email"
+                              type="email"
+                              placeholder="Email"
+                            />
+                            <textarea
+                              name="text"
+                              rows="6"
+                              placeholder="Message"
+                            ></textarea>
+                            <button type="submit" class="trm-btn">
+                              Send <i class="fas fa-arrow-right"></i>
+                            </button>
+                          </form>
+                          <div class="trm-text-sm trm-mt-20">
+                            * I promise the confidentiality of your personal
+                            information
+                          </div>
+                          <div class="trm-success-banner">
+                            <img
+                              src="img/success.png"
+                              alt="success"
+                              class="trm-mb-15"
+                            />
+                            <h4 class="trm-mb-15">Success</h4>
+                            <div class="trm-text trm-mb-20">
+                              Your message has been sent successfully
+                            </div>
+                            <a href="#." class="trm-btn" data-fancybox-close=""
+                              >Ok</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- popup end -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- scroll container end -->
+    </div>
+    <!-- app wrapper end -->
+
+    <!-- jquery js -->
+    <script src="js/plugins/jquery.min.js"></script>
+    <!-- swup js -->
+    <script src="js/plugins/swup.min.js"></script>
+    <!-- locomotive scroll js -->
+    <script src="js/plugins/locomotive-scroll.js"></script>
+    <!-- typing js -->
+    <script src="js/plugins/typing.js"></script>
+    <!-- fancybox js -->
+    <script src="js/plugins/fancybox.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/plugins/swiper.min.js"></script>
+    <!-- adrian js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
